@@ -54,9 +54,9 @@ public class addPrefabToScene : MonoBehaviour
     {
         for (int i = 0; i < 2; i++) // Number of flashes
         {
-            passthroughLayer.SetBrightnessContrastSaturation(contrast: 1.0f, brightness: -0.5f, saturation: -1f); // Set brightness to -1
+            passthroughLayer.SetBrightnessContrastSaturation(contrast: 1.0f, brightness: -0.25f, saturation: -1f); // Set brightness to -1
             yield return new WaitForSeconds(0.1f); // Wait for 0.25 seconds
-            passthroughLayer.SetBrightnessContrastSaturation(contrast: 0, brightness: 0f, saturation: 0); // Reset brightness to 0
+            passthroughLayer.SetBrightnessContrastSaturation(contrast: 0, brightness: -0.5f, saturation: 0); // Reset brightness to 0
             if (i < 1) // Check to prevent waiting after the last flash
                 yield return new WaitForSeconds(0.1f); // Wait for 0.25 seconds before next flash
         }
