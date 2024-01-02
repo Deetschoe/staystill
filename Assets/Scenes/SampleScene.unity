@@ -499,7 +499,7 @@ MonoBehaviour:
   prefab: {fileID: 192852965116145324, guid: 9eb137efdbde3674c821087e0cbecc9a, type: 3}
   delayInSeconds: 15
   audioClip: {fileID: 8300000, guid: 5733995b49f27df438946638a95d08c9, type: 3}
-  passthroughOverlay: {fileID: 0}
+  passthroughLayer: {fileID: 351231410}
 --- !u!4 &893716730
 Transform:
   m_ObjectHideFlags: 0
